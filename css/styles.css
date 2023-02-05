@@ -653,12 +653,49 @@ body {
   fill: var(--secondary-filter-btn-textcolor);
 }
 
-
-
-
 /* =========modal forms========= */
 
 .modal-form {
   display: flex;
   flex-direction: column;
+}
+
+.modal-subtitle {
+font-weight: 500;
+text-align: center;
+
+color: #2E2F42;
+}
+
+.modal-form-field {
+  margin-bottom: 8px;
+}
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 42px;
+
+  font-size: 18px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form-message {
+  resize: none;
+  width: 100%;
+  height: 120px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form-input-desc {
+  display: block;
+  margin-bottom: 12px;
+
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
