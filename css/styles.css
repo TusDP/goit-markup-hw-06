@@ -430,11 +430,14 @@ body {
 
 .footer-container {
   display: flex;
-  align-items: center;
 }
 
 .footer-info {
   margin-right: 120px;
+}
+
+.footer-soc {
+  margin-right: 80px;
 }
 
 .footer-subtitle {
@@ -475,6 +478,61 @@ body {
   fill: #f4f4fd;
 }
 
+.subscribe-field {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-input {
+  width: 264px;
+  padding: 8px 16px;
+  margin-right: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--dark-color);
+  font-size: 12px;
+  line-height: 2.0;
+  letter-spacing: 0.04em;
+  color: var(--secondary-filter-btn-textcolor);
+  transition: border-color var(--timing-function);
+}
+
+.subscribe-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-input:focus {
+  outline: none;
+  border-color: var(--secondary-filter-btn-textcolor);
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  min-width: 165px;
+  padding: 8px 24px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.50;    letter-spacing: 0.04em;
+  border-radius: 4px;
+  color: var(--primary-filter-btn-color);
+  background-color: var(--primary-btn-color);
+  border: none;
+  transition: background-color var(--timing-function);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--secondary-btn-color);
+}
+
+.subscribe-icon {
+  fill: var(--secondary-filter-btn-textcolor);
+  margin-left: 16px;
+}
 /* PORTFOLIO styles */
 
 .portfolio {
@@ -584,7 +642,7 @@ body {
   transform: translate(0, 0);
 }
 
-/* === Modal widow === */
+/* ========Modal widow ======== */
 .backdrop {
   position: fixed;
   top: 0;
