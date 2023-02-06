@@ -492,7 +492,7 @@ body {
   border-radius: 4px;
   background-color: var(--dark-color);
   font-size: 12px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: var(--secondary-filter-btn-textcolor);
   transition: border-color var(--timing-function);
@@ -516,7 +516,8 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.50;    letter-spacing: 0.04em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   color: var(--primary-filter-btn-color);
   background-color: var(--primary-btn-color);
